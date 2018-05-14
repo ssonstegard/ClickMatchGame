@@ -31,7 +31,7 @@ class App extends Component {
                 currentScore: 0,
                 characters: characters,
                 unclickedCharacters: characters,
-                Message: "Nailed it!"
+                Message: "Nope!"
 
             })
         }
@@ -45,7 +45,7 @@ class App extends Component {
                     this.winScore()
                 });
         };
-        this.winScore(characters)
+        this.shuffle(characters)
 
     };
 
